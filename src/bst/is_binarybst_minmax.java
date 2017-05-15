@@ -13,7 +13,7 @@ class is_binarybst_minmax{
 			return false;
 		return(binary_bst(root.left, min, root.data-1)&& binary_bst(root.right, root.data+1, max));
 	}
-	public static void main(String args[]){
+	public static void main (String args[]){
 		is_binarybst_minmax isbst=new is_binarybst_minmax();
 
 		isbst.root = new Node(4);

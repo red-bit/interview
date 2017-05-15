@@ -12,14 +12,14 @@ class inorder_pre_suc{
 		if(root.data==key){
 			if(root.left!=null){
 				Node tmp=root.left;
-				while(tmp!=null){
+				while(tmp.right!=null){
 					tmp=tmp.right;
 				}
 				pre=tmp;
 			}
 			if(root.right!=null){
 				Node tmp=root.right;
-				while(tmp!=null)
+				while(tmp.left!=null)
 				{
 					tmp=tmp.left;
 				}
@@ -37,15 +37,15 @@ class inorder_pre_suc{
 			find_pre_suc(root.left, key);
 		}
 	}
-	public static void main(String args[]){
+	public static void main (String args[]){
 		inorder_pre_suc inps=new inorder_pre_suc();
-		inps.root = new Node(4);
-		inps.root.left = new Node(2);
-		inps.root.right = new Node(5);
+		inps.root = new Node(10);
+		inps.root.left = new Node(5);
+		inps.root.right = new Node(15);
 		inps.root.left.left = new Node(1);
-		inps.root.left.right = new Node(3);
+		inps.root.left.right = new Node(6);
 		
-		int key=4;
+		int key=9;
 		inps.find_pre_suc(inps.root,key);
 		if(pre==null)
 			System.out.println("No Predecessor");
