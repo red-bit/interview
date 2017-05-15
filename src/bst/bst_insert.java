@@ -1,3 +1,4 @@
+// To insert a node in bst. In bst the new node is added at the end of the tree.
 package bst;
 import tree.*;
 class bst_insert{

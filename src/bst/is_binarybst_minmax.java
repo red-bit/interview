@@ -1,3 +1,7 @@
+/* To check if a binary tree is a Bst or not.
+ * This approach uses the Integer.MAX_VALUE and Integer.MIN_VALUE to check if root.data 
+ * lies in between the correct range.
+ */
 package bst;
 import tree.*;
 class is_binarybst_minmax{

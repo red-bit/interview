@@ -1,4 +1,5 @@
-//This program implements Math.power function in logn time complexity.It is true both for positive and negative power
+//This program implements Math.power function in logn time complexity.
+//It is true both for positive and negative power
 package misc;
 
 class power_logn{

@@ -45,7 +45,7 @@ class node_from_last{
 			ref=ref.next;
 			cnt++;
 		}
-		/*Here ref!=null because in the above while loop ref already pointed to the null of the last pointer 
+		/*Here ref!=null because in the above while loop, ref already pointed to the null of the last pointer 
 		in the last execution of the while loop*/
 		while(ref!=null){
 			ref=ref.next;

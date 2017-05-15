@@ -1,3 +1,4 @@
+/* To delete a node from bst */
 package bst;
 import tree.*;
 class bst_delete{
