@@ -4,16 +4,6 @@
 
 package tree;
 
-class Node{
-	int data;
-	Node left,right;
-	Node(int d)
-	{
-		data=d;
-		left=null;
-		right=null;
-	}
-}
 class tree_traversal{
 	static Node root;
 	public void preorder(Node root){

@@ -1,6 +1,6 @@
 package tree;
 
-/* This prints the diameter of the binary tree. the time complexity of the above is O(n^2).
+/* This prints the diameter of the binary tree. the time complexity of the below is O(n^2).
  * The diameter of a tree T is the largest of the following quantities:
 
 * the diameter of T's left subtree
